@@ -5,7 +5,7 @@
 <!-- script src="{{ theme_static('admin/custom.js') }}"></script -->
 <script type="text/javascript">
 
-function load_tinymce(){
+function load_html_editor(){
     if (tinymce.activeEditor == null) {
         tinymce.init({
     	selector: "{{ selector }}",
@@ -30,7 +30,7 @@ function load_tinymce(){
     }
 }
 
-function destroy_tinymce() {
+function destroy_html_editor() {
     tinymce.activeEditor.hide();
 }
 
