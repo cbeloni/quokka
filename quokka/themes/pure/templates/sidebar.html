@@ -11,7 +11,7 @@
             <header class="header">
                 <hgroup>
                     <h1 class="brand-main"><a href="/"><img src="{{ Config.get('site', 'site_logo', theme_static('img/logo.png')) }}" alt="{{Config.get('site', 'site_name')}}"></a></h1>
-                    <p class="tagline">{{Config.get('site', 'site_tagline', '<b>The Happiest CMS in the World!</b>')|safe}}</p>
+                    <p class="tagline">{{Config.get('site', 'site_tagline', '<b>The Happiest CMS!</b>')|safe}}</p>
 
                     {% for title, link in Config.get('site', 'menu_items', []) %}
                         <p class="links"><a href="{{ link }}">{{ title }}</a></p>

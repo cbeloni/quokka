@@ -50,12 +50,12 @@
                },
                {
                    "name": "site_description",
-                   "rawvalue": "The Happiest CMS in the World",
+                   "rawvalue": "The Happiest CMS",
                    "formatter": "text"
                },
                {
                    "name": "site_tagline",
-                   "rawvalue": "The Happiest CMS in the World",
+                   "rawvalue": "The Happiest CMS",
                    "formatter": "text"
                },
                {
